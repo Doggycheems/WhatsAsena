@@ -12,7 +12,7 @@ class StringSession {
 
     deCrypt(string = undefined) {
         if ('DOGGYCHEEMS_SESSION' in process.env && string === undefined) {
-            string = process.env.STRING_SESSION;
+            string = process.env.DOGGYCHEEMS_SESSION;
         } else if (string !== undefined) {
             if (fs.existsSync(string)) {
                 string = fs.readFileSync(string, {encoding:'utf8', flag:'r'});
