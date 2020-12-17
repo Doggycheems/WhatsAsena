@@ -3,7 +3,7 @@
     "description": "Custom fork of whatsasena maintained by @doggy_cheems.",
     "logo": "https://i.hizliresim.com/6Bbj7i.jpg",
     "keywords": ["whatsapp", "userbot", "Asena"],
-    "repository": "https://github.com/doggycheems/WhatsAsena",
+    "repository": "https://github.com/doggycheems/doggywhatsapp",
     "website":   "https://quiec.tech",
     "success_url": "https://t.me/doggy_cheems",
     "stack": "container",
