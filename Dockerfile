@@ -1,6 +1,6 @@
 FROM fusuf/whatsasena:publicbeta
 
-RUN git clone https://github.com/doggycheems/doggywhatsapp /root/WhatsAsena
+RUN git clone https://github.com/doggycheems/doggywhatsapp /root/doggywhatsapp
 RUN mkdir /root/doggywhatsapp/bin/
 WORKDIR /root/doggywhatsapp/
 
