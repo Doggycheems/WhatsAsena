@@ -34,7 +34,7 @@
 ### Simple Method
 [![Run on Repl.it](https://repl.it/badge/github/Quiec/whatsasena)](https://repl.it/@doggycheems/whatsasena)
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Doggycheems/WhatsAsena)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Doggycheems/doggywhatsapp)
 
 ### The Hard Method
 ```js
