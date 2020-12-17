@@ -16,7 +16,7 @@ const Lang = Language.getString('system_stats');
 
 Asena.addCommand({pattern: 'alive', fromMe: true, desc: Lang.ALIVE_DESC}, (async (message, match) => {
     await message.sendMessage(
-        '```Userbot Online ✅```\n\n*Versione:* ```'+Config.VERSION+'```\n*Ciao, sono un userbot per whatsapp in beta, sono scritto in javascript e posso fare molte cose utili\n*Repo GitHub:* https://GitHub.com/doggycheems/whatsasena' , MessageType.text
+        '```Userbot Online ✅```\n\n*Versione:* ```'+Config.VERSION+'```Ciao sono un assistente personale ancora in versione beta e non stabile, sono scritto interamente in javascript e sono tra i primi userbot whatsapp.' , MessageType.text
     );
 }));
 
