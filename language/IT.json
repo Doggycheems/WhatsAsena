@@ -59,43 +59,43 @@
         "SECOND": "secondo"
       },
         "evaluators": {
-            "TERM_DESC": "Allows to run the command on the server's shell.",
-            "GIVE_ME_CODE": "*Give me a code!*"
+            "TERM_DESC": "Ti permette di eseguire un comando nella shell del server.",
+            "GIVE_ME_CODE": "*Dimmi cosa eseguire!*"
         },
         "nekobin": {
-            "NEKO_DESC": "Replied messages will be added to nekobin.com.",
-            "NEED_REPLY": "```Please reply to a message!```",
-            "MUST_TEXT": "```Please reply to any message```"
+            "NEKO_DESC": "Rispondi a un messaggio per pubblicarlo su nekobin.com.",
+            "NEED_REPLY": "```Rispondi a un messaggio!```",
+            "MUST_TEXT": "```Rispondi a un messaggio```"
         },
         "heroku": {
             "RESTART_DESC": "Riavvia l'userbot",
             "RESTART_MSG": "```sto riavviando...```",
             "SHUTDOWN_DESC": "Spegne l'userbot",
             "SHUTDOWN_MSG": "```spegnendo ⛔```",
-            "DYNO_DESC": "Check heroku dyno usage",
-            "DYNO_TOTAL": "```Total Quota```",
-            "DYNO_USED": "```Quota used```",
-            "PERCENTAGE": "```Percentage```",
-            "DYNO_LEFT": "```Remaining```",
-            "SETVAR_DESC": "Set heroku config var",
-            "SET_SUCCESS": "Successfully set ```{} ➜ {}```",
-            "KEY_VAL_MISSING": "```Either Key or Value is missing```",
-            "INVALID": "```Invalid key:value format```",
-            "GETVAR_DESC": "Get heroku config var",
-            "DELVAR_DESC": "Delete heroku config var",
-            "DEL_SUCCESS": "```{} successfully deleted```",
-            "NOT_FOUND": "```no results found for this key```"           
+            "DYNO_DESC": "Controlla i dyno rimasti",
+            "DYNO_TOTAL": "```Dyno rimasti```",
+            "DYNO_USED": "```Dyno usati```",
+            "PERCENTAGE": "```Percentuale```",
+            "DYNO_LEFT": "```Rimanenti```",
+            "SETVAR_DESC": "Imposta una var di heroku",
+            "SET_SUCCESS": "Impostata correttamente ```{} ➜ {}```",
+            "KEY_VAL_MISSING": "```Formato non corretto```",
+            "INVALID": "```Nome della var non corretto```",
+            "GETVAR_DESC": "Ottieni una var",
+            "DELVAR_DESC": "Rimuovi una var",
+            "DEL_SUCCESS": "```{} rimossa correttamente```",
+            "NOT_FOUND": "```Var non trovata```"           
         },
         "filters": {
-            "FILTER_DESC": "It adds a filter. If someone writes your filter, it send the answer. If you just write .filter, it show's your filter list.",
-            "NO_FILTER": "*❌ There are no filters in this chat!*",
-            "FILTERS": "*🔎 There is your filters in this chat:*",
-            "NEED_REPLY": "*❌ Please type in reply!*\n*Example:*",
-            "FILTERED": "*✅ Successfully set* ```{}``` *to filter!*",
-            "STOP_DESC": "Stops the filter you added previously.",
-            "NEED_FILTER": "*❌ Please type a filter!*\n*Example:*",
-            "ALREADY_NO_FILTER": "*❌ There is already no filter like this!*",
-            "DELETED": "*✅ The filter was successfully deleted!*"
+            "FILTER_DESC": "Aggiungi un filtro, se qualcuno scrive una determinata parola il bot risponderà. se scrivi solo .filter, verrà mostrata la listra dei filtri disponibili.",
+            "NO_FILTER": "*❌ Non sono presenti filtri attivi in questa chat!*",
+            "FILTERS": "*🔎 Ecco i filtri attivi:*",
+            "NEED_REPLY": "*❌ Usa il comando come risposta !*\n*Esempio:*",
+            "FILTERED": "*✅ Ho impostato* ```{}``` *come un filtro!*",
+            "STOP_DESC": "Ferma i filtri attivi.",
+            "NEED_FILTER": "*❌ Indica il filtro da disattivare!*\n*Esempio:*",
+            "ALREADY_NO_FILTER": "*❌ Non è presente questo filtro!*",
+            "DELETED": "*✅ Filtro rimosso correttamente!*"
         },
         "greetings": {
             "WELCOME_DESC": "It sets the welcome message. If you leave it blank it shows the welcome message.",
@@ -199,12 +199,12 @@
             "NOT_FOUND": "```I couldn't find a city with this name. 😖```"
         },
         "web": {
-            "SPEEDTEST_DESC": "Measures Download and Upload speed.",
-            "SPEEDTESTING": "```Running speed test...```",
-            "SPEEDTEST_RESULT": "*Speed ​​test completed!*",
+            "SPEEDTEST_DESC": "Misura velocità di download e upload.",
+            "SPEEDTESTING": "```Sto eseguendo lo speedtest...```",
+            "SPEEDTEST_RESULT": "*Speed ​​test completato!*",
             "UPLOAD": "Upload",
             "DOWNLOAD": "Download",
-            "PING_DESC": "Measures your ping."
+            "PING_DESC": "Misura il tuo ping."
         }
     }
 }
