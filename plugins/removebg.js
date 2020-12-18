@@ -49,6 +49,6 @@ Asena.addCommand({pattern: 'removebg ?(.*)', fromMe: true, desc: Lang.REMOVEBG_D
 		fs.createWriteStream('rbg.png')
     );
     
-    await message.sendMessage(fs.readFileSync('rbg.png'), MessageType.document, {filename: ':D.png', mimetype: Mimetype.png});
+    await message.sendMessage(fs.readFileSync('rbg.png'), MessageType.document, {filename: 'output.png', mimetype: Mimetype.png});
     await load.delete();
 }));
