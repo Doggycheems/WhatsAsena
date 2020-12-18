@@ -1,5 +1,5 @@
 HELLO!
-This userbot is a custom fork of https://github.com/quiec/whatsasena, this userbot is maintained by t.me/doggy_cheems
+This userbot is a custom fork of https://github.com/quiec/whatsasena, this userbot is maintained by https://t.me/doggy_cheems
 ### Simple Method
 [![Run on Repl.it](https://repl.it/badge/github/Quiec/whatsasena)](https://repl.it/@doggycheems/whatsasena)
 
