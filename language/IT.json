@@ -45,19 +45,19 @@
             "INVITE_DESC": "Ottiene il link della chat.",
             "INVITE": "```Link: ```"
         },
-      "afk": {
-        "AFK_DESC": "Imposta la modalita AFK - Offline.",
-        "IM_AFK": "*Sono afk!*",
-        "IM_AFK_NOMD": "Sono afk!",
-        "REASON": "Motivo",
-        "LAST_SEEN": "Ultima volta online",
-        "IM_NOT_AFK": "```Non sono più afk!```",
-        "AFK_TEXT": "```Ciao questo è un bot, purtroppo il mio proprietario è offline al momento.```",
-        "AFK_TEXT_NOMD": "Ciao questo è un bot, purtroppo il mio proprietario è offline al momento.",
-        "HOUR": "Ora",
-        "MINUTE": "minuto",
-        "SECOND": "secondo"
-      },
+        "afk": {
+            "AFK_DESC": "Imposta la modalita AFK - Offline.",
+            "IM_AFK": "*Sono afk!*",
+            "IM_AFK_NOMD": "Sono afk!",
+            "REASON": "Motivo",
+            "LAST_SEEN": "Ultima volta online",
+            "IM_NOT_AFK": "```Non sono più afk!```",
+            "AFK_TEXT": "```Ciao questo è un bot, purtroppo il mio proprietario è offline al momento.```",
+            "AFK_TEXT_NOMD": "Ciao questo è un bot, purtroppo il mio proprietario è offline al momento.",
+            "HOUR": "Ora",
+            "MINUTE": "minuto",
+            "SECOND": "secondo"
+        },
         "evaluators": {
             "TERM_DESC": "Ti permette di eseguire un comando nella shell del server.",
             "GIVE_ME_CODE": "*Dimmi cosa eseguire!*"
