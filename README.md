@@ -1,3 +1,4 @@
+USE AT YOUR OWN RISK, if you use beta branch do not update with .update command, special updater for beta coming soon
 HELLO!
 This userbot is a custom fork of https://github.com/quiec/whatsasena, this userbot is maintained by https://t.me/doggy_cheems
 ### Simple Method
