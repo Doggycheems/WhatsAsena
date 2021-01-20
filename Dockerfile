@@ -1,4 +1,4 @@
-FROM doggycheems/doggywhatsapp:latest
+FROM doggycheems/doggywhatsapp
 
 RUN git clone https://github.com/Doggycheems/doggywhatsapp /root/doggywhatsapp
 WORKDIR /root/doggywhatsapp/
