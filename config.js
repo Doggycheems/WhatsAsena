@@ -1,8 +1,6 @@
 /* Copyright (C) 2020 Yusuf Usta.
-
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
-
 WhatsAsena - Yusuf Usta
 */
 
@@ -19,8 +17,8 @@ DATABASE_URL = process.env.DATABASE_URL === undefined ? './whatsasena.db' : proc
 DEBUG = process.env.DEBUG === undefined ? false : convertToBool(process.env.DEBUG);
 
 module.exports = {
-    VERSION: 'v0.9.5 Public Beta',
-    SESSION: process.env.DOGGYCHEEMS_SESSION === undefined ? '' : process.env.DOGGYCHEEMS_SESSION,
+    VERSION: 'v0.10.0 Public Stable',
+    SESSION: process.env.ASENA_SESSION === undefined ? '' : process.env.ASENA_SESSION,
     LANG: process.env.LANGUAGE === undefined ? 'TR' : process.env.LANGUAGE.toUpperCase(),
     HANDLERS: process.env.HANDLERS === undefined ? '^[.!;]' : process.env.HANDLERS,
     SEND_READ: process.env.SEND_READ === undefined ? false : convertToBool(process.env.SEND_READ),
