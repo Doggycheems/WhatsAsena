@@ -1,4 +1,4 @@
-ROM fusuf/doggywhatsapp:latest
+ROM Doggycheems/doggywhatsapp:latest
 
 RUN git clone $GITHUB_REPO_URL /root/doggywhatsapp
 WORKDIR /root/doggywhatsapp/
