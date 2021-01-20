@@ -1,7 +1,7 @@
-ROM Doggycheems/doggywhatsapp:latest
+FROM fusuf/whatsasena:latest
 
-RUN git clone $GITHUB_REPO_URL /root/doggywhatsapp
-WORKDIR /root/doggywhatsapp/
+RUN git clone $GITHUB_REPO_URL /root/WhatsAsena
+WORKDIR /root/WhatsAsena/
 ENV TZ=Europe/Istanbul
 RUN npm install supervisor -g
 RUN npm install
